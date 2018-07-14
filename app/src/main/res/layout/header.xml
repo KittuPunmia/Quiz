@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    style="@style/ThemeOverlay.AppCompat.Dark"
+    android:padding="25dp"
+    android:layout_height="177dp">
+<ImageView
+    android:layout_width="64dp"
+    android:layout_height="64dp"
+    android:src="@mipmap/ic_launcher"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFF"
+        android:layout_marginTop="9dp"
+        android:text="Quiz"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:text="Check Your Knowledge"
+        android:layout_marginTop="9dp"
+        android:textColor="#FFF"/>
+</LinearLayout>
